@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CineManuuu!</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="logo">🎬 CineManuuu!</div>
+  <input id="search" type="text" placeholder="Search movies...">
+</nav>
+
+<section class="hero">
+  <div class="overlay">
+    <h1>Discover Amazing Movies</h1>
+    <p>Trending • Popular • Top Rated</p>
+  </div>
+</section>
+
+<div id="loader" class="loader">Loading Movies...</div>
+<div id="movies" class="movies-grid"></div>
+
+<div id="modal" class="modal hidden">
+  <div class="modal-box">
+    <span id="close">&times;</span>
+    <div id="details"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
