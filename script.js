@@ -19,7 +19,7 @@ async function fetchMovies(url){
    const data=await res.json();
    renderMovies(data.results||[]);
  }catch(e){
-   movies.innerHTML='<h2>Failed to load movies.</h2>';
+   movies.innerHTML='<h2>You are Offline !</h2>';
  }
  showLoader(false);
 }
